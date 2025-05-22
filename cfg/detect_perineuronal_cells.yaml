@@ -1,0 +1,4 @@
+folder_path: ../data/microscopic/perineuronal/stack_layers
+out_path: ../data/out/stack_layers
+weights: ../weights/cell_detect_model.pkl
+threshold: 0.7

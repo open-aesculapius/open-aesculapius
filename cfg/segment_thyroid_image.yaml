@@ -1,0 +1,3 @@
+folder_path: ../data/ultrasound/thyroid
+out_path: ../data/out/thyroid_image
+weights: ../weights/thyroid_model.h5

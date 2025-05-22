@@ -1,0 +1,3 @@
+folder_path: ../data/microscopic/astrocyte/unmarked
+out_path: ../data/out/detect_astrocyte_tips
+weights: ../weights/astrocyte_model.pth.tar

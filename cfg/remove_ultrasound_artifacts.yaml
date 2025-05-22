@@ -1,0 +1,8 @@
+folder_path: ../data/ultrasound/any
+out_path: ../data/out/denoise_image
+weights: ../weights/infill_model.pt
+
+comet_tail_steps_x: 6
+comet_tail_steps_y: 6
+ring_down_steps_x: 2
+ring_down_steps_y: 5

@@ -1,0 +1,4 @@
+folder_path: ../data/microscopic/perineuronal/cells_stack
+out_path: ../data/out/find_perineuronal_cell_area
+weights: ../weights/cell_model.pkl
+threshold: 0.7

@@ -1,0 +1,4 @@
+folder_path: ../data/microscopic/astrocyte/marked/healthy
+out_path: ../data/out/classify_astrocyte
+weights_classifier: ../weights/astrocyte_classifier_model.pth
+weights_segmenter: ../weights/astrocyte_model.pth.tar
