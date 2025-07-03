@@ -2,7 +2,8 @@ import yaml
 import time
 import inspect
 from pathlib import Path
-
+import sys
+sys.path.append('..')
 from settings import CFG_ROOT, WEIGHTS_ROOT, DATA_ROOT
 from aesculapius.modules.core.ms_img import MicroscopicImage
 from aesculapius.modules.core.us_img import UltrasoundImage

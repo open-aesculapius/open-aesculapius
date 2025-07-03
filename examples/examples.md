@@ -1,6 +1,5 @@
-# Examples  [![ru](https://img.shields.io/badge/ru-en-green.svg)](examples.ru.md) 
+# Examples of new code use cases  [![ru](https://img.shields.io/badge/ru-en-green.svg)](examples.ru.md) 
 
-# Demonstration of library functions
 Examples in this chapter demonstrate work of a specific library function
 
 | Filename                                    | Description                              |
@@ -26,5 +25,32 @@ Examples in this chapter demonstrate work of a specific library function
 | simple_detect_ultrasound_anomalies.py             | `Detect anomalies`                              |
 | simple_segment_thyroid_image.py                   | `Detect edges(thyroid)`                         |
 
-# Demonstration of complex algorithms
-Examples in this chapter demonstrate possible cascades of library functions
+
+The following examples can be used to further analyze the detected perineural network cells:
+
+- simple_detect_perineural_cells.py;
+- simple_find_perineural_cell_area.py;
+- simple_calculate_perineural_cell_depth.py.
+
+The following examples can be used to further analyze the detected astrocytes:
+
+- simple_classify_astrocyte.py;
+- simple_detect_astrocyte_tips.py;
+- simple_segment_gfap_microstructure.py.
+
+The following examples can be used as preprocessing or postprocessing in a cascade of algorithms for working with ultrasound images:
+
+- simple_apply_ultrasound_histogram_equalization.py;
+- simple_denoise_ultrasound_image.py;
+- simple_update_ultrasound_brightness_contrast.py;
+- simple_update_ultrasound_brightness_manual.py;
+- simple_update_ultrasound_color_count_manual.py;
+- simple_update_ultrasound_ contrast_manual.py.
+
+The following examples can be used to automatically highlight diagnostically significant areas:
+
+- simple_detect_ultrasound_anomalies.py;
+- simple_detect_ultrasound_artifacts.py;
+- simple_remove_mirror_ultrasound_artifact.py;
+- simple_remove_ultrasound_artifacts.py;
+- simple_segment_thyroid_image.py.

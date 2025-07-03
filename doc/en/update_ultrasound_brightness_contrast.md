@@ -15,7 +15,7 @@ The network takes an RGB image of fixed size (960×640), processes it using resi
 
 # Demonstration
 
-The module was demonstrated using the example `simple_update_ultrasound_brightness_contrast.py`, расположенный по следующему пути:
+The module was demonstrated using the example `simple_update_ultrasound_brightness_contrast.py`, located along the following path:
 
 ```
 <project_root>/examples/simple_update_ultrasound_brightness_contrast.py.py

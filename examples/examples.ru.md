@@ -1,6 +1,5 @@
-# Примеры  [![en](https://img.shields.io/badge/en-ru-green.svg)](examples.md)
+# Примеры новых вариантов использования кода  [![en](https://img.shields.io/badge/en-ru-green.svg)](examples.md)
 
-# Примеры использования функций бибилотеки
 Примеры в этом разделе демонстрируют работу отдельных библиотечных функций
 
 | Filename                                    | Description                                      |
@@ -26,5 +25,31 @@
 | simple_detect_ultrasound_anomalies.py             | `Детектирование аномалий`                                  |
 | simple_segment_thyroid_image.py                   | `Детектирование краев(щитовидной железы)`                  |
 
-# Примеры построения комлексных алгоритмов
-Примеры в этом разделе демонстрируют возможные каскады алгоритмов, построенные из функций библиотеки
+Следующие примеры могут быть использованы для дальнейшего анализа найденных ячеек перинейроныльных сетей:
+
+- simple_detect_perineural_cells.py;
+- simple_find_perineural_cell_area.py;
+- simple_calculate_perineural_cell_depth.py.
+
+Следующие примеры могут быть использованы для дальнейшего анализа найденных астроцитов:
+
+- simple_classify_astrocyte.py;
+- simple_detect_astrocyte_tips.py;
+- simple_segment_gfap_microstructure.py.
+
+Следующие примеры могут быть использованы в качестве предобработки или постобработки в каскаде алгоритмов для работы с УЗИ-снимками:
+
+- simple_apply_ultrasound_histogram_equalization.py;
+- simple_denoise_ultrasound_image.py;
+- simple_update_ultrasound_brightness_contrast.py;
+- simple_update_ultrasound_brightness_manual.py;
+- simple_update_ultrasound_color_count_manual.py;
+- simple_update_ultrasound_ contrast_manual.py.
+
+Следующие примеры могут быть использованы для автоматического выделения диагностически значимых областей:
+
+- simple_detect_ultrasound_anomalies.py;
+- simple_detect_ultrasound_artifacts.py;
+- simple_remove_mirror_ultrasound_artifact.py;
+- simple_remove_ultrasound_artifacts.py;
+- simple_segment_thyroid_image.py.

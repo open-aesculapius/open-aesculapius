@@ -20,7 +20,6 @@ from .modules import HistogramEqualizer
 
 from .modules.core.utils.download_weights import (
     download_file_from_hf,
-    download_folder_from_hf,
 )
 
 
@@ -142,7 +141,7 @@ def apply_ultrasound_histogram_equalization(image, config: dict):
 
 
 def update_ultrasound_brightness_contrast(image, config):
-    download_folder_from_hf(config["weights"])
+    download_file_from_hf(config["weights"])
     enhancer = ImageEnhancer(weights=config["weights"])
     return enhancer(image)
 
