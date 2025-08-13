@@ -5,7 +5,7 @@ Aesculapius is open source library for ultrasound and microscopic image processi
 # Table of content
 - [Installation](#installation)
 - [Git hooks configuration](#git-hooks)
-    - [MacOS or Linux](#hooks-unix)
+    - [Linux](#hooks-unix)
     - [Windows](#hooks-windows)
 - [Using Library functions](#how-to-use)
 - [Examples of new code use cases](#examples)
@@ -53,10 +53,12 @@ cd build
 - For Windows: 
 ```shellsctopy
 build.bat
+cd ..\dist
 ```
-- For Ubuntu: 
+- For Linux:
 ```shellsctopy
-./build.sh
+bash build.sh
+cd ../dist
 ```
 
 - Installing the compiled package (the package will appear in the dist directory)
@@ -66,25 +68,34 @@ pip install aesculapius-1.0.0-py3-none-any.whl
 
 8) To test the functionality of all modules in the test directory:
 ```shellscript 
+cd ..
 cd test
 python module_testing.py
 ```
 
 # <a name="git-hooks">📝 Git hooks configuration</a>
 ## Git hooks check commit message to match '\<type>[scope]: \<description>' template. In this section we configurate git hooks.
-## <a name="hooks-unix">MacOS or Linux</a>
-1. Make .githooks/commit-msg executable
+## <a name="hooks-unix">Linux</a>
+1. (Optional) If you are in a subdirectory, go back to the root:
 ```shellscript
-chmod +X .githooks/commit-msg
+cd ..
 ```
-2. Run .githooks/hooks-init.sh
+2. Make .githooks/commit-msg executable
 ```shellscript
-. .githooks/commit-msg
+chmod +x .githooks/commit-msg
+```
+3. Run .githooks/hooks-init.sh
+```shellscript
+bash .githooks/hooks-init.sh
 ```
 ## <a name="hooks-windows">Windows</a>
-1. Run PowerShell .githooks/hooks-init.sh
+1. (Optional) If you are in a subdirectory, go back to the project root:
 ```shellscript
-. .githooks/commit-msg
+cd ..
+```
+2. Run .githooks\hooks-init.bat
+```shellscript
+.githooks\hooks-init.bat
 ```
 # <a name="how-to-use">📝 Using Library functions</a>
 The library provides two main classes for working with images: 
@@ -102,7 +113,7 @@ us_image = UltrasoundImage("путь_к_папке_с_изображениями
 us_layer = us_image.us_image
 ```
 
-Example of calling functions from a library: 
+Example of calling functions from a library:
 
 ```shellscript
 from aesculapius.aesculapius import (

@@ -19,6 +19,9 @@ process-palette.json
 .idea/
 .DS_Store
 
+#Build
+dist/
+aesculapius.egg-info/
 
 #Archives
 *.7z
