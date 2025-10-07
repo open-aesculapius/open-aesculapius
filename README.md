@@ -166,6 +166,8 @@ The library can be applied in the following application areas:
 
 • Intel or AMD processor 2.3 GHz x10 cores; RAM: 8 GB; Nvidia RTX 4060 graphics card; 512 GB SSD; Windows 10 or Ubuntu 22.04 operating system;
 
+• CUDA version 12.0+;
+
 • Python interpreter version 3.10;
 
 • installed libraries from the requirements.txt file.
