@@ -4,12 +4,12 @@ Examples in this chapter demonstrate work of a specific library function
 
 | Filename                                    | Description                              |
 |---------------------------------------------|------------------------------------------|
-| simple_detect_perineuronal_cells.py         | `Detect one cell on 32x32 stack`         |
-| simple_find_perineuronal_cell_area.py       | `Find cell area on detected cell`        |
-| simple_calculate_perineuronal_cell_depth.py | `Calculate cell depth on detected cells` |
-| simple_detect_astrocyte_tips.py             | `Detect astrocyte's tips'                |
-| simple_classify_astrocyte.py                | `Classify healthy and sick astrocytes'   |
-| simple_segment_gfap_microstructure.py       | `Segment astrocyte microstructure'       |
+| simple_detect_perineural_cells.py         | `Detect one cell on 32x32 stack`         |
+| simple_find_perineural_cell_area.py       | `Find cell area on detected cell`        |
+| simple_calculate_perineural_cell_depth.py | `Calculate cell depth on detected cells` |
+| simple_detect_astrocyte_tips.py             | `Detect astrocyte's tips`                |
+| simple_classify_astrocyte.py                | `Classify healthy and sick astrocytes`   |
+| simple_segment_gfap_microstructure.py       | `Segment astrocyte microstructure`       |
 
 | Filename                                          | Description                                     |
 |---------------------------------------------------|-------------------------------------------------|

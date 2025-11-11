@@ -4,9 +4,9 @@
 
 | Filename                                    | Description                                      |
 |---------------------------------------------|--------------------------------------------------|
-| simple_detect_perineuronal_cells.py         | `Детектирование ячейки на стеке размером 32x32`  |
-| simple_find_perineuronal_cell_area.py       | `Нахождение границы ячейки`                      |
-| simple_calculate_perineuronal_cell_depth.py | `Вычисление глубины найденной ячейки`            |
+| simple_detect_perineural_cells.py         | `Детектирование ячейки на стеке размером 32x32`  |
+| simple_find_perineural_cell_area.py       | `Нахождение границы ячейки`                      |
+| simple_calculate_perineural_cell_depth.py | `Вычисление глубины найденной ячейки`            |
 | simple_detect_astrocyte_tips.py             | `Детектирование кончиков отростков астроцитов`   |
 | simple_classify_astrocyte.py                | `Классификация астроцитов на больные и здоровые` |
 | simple_segment_gfap_microstructure.py       | `Сегментация микроструктуры GFAP цитоскелета`    |
